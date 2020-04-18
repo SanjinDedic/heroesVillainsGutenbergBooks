@@ -1,0 +1,38 @@
+[[package]]
+category = "main"
+description = "Natural Language Toolkit"
+name = "nltk"
+optional = false
+python-versions = "*"
+version = "3.4.5"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[[package]]
+category = "main"
+description = "Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing, and more."
+name = "textblob"
+optional = false
+python-versions = "*"
+version = "0.15.3"
+
+[package.dependencies]
+nltk = ">=3.1"
+
+[metadata]
+content-hash = "1ad1db261e3bfffbd3e47f37176d5baf0c0aa8541caaf89e90c450ab19249821"
+python-versions = "^3.7"
+
+[metadata.hashes]
+nltk = ["a08bdb4b8a1c13de16743068d9eb61c8c71c2e5d642e8e08205c528035843f82", "bed45551259aa2101381bbdd5df37d44ca2669c5c3dad72439fa459b29137d94"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
+textblob = ["7ff3c00cb5a85a30132ee6768b8c68cb2b9d76432fec18cd1b3ffe2f8594ec8c", "b0eafd8b129c9b196c8128056caed891d64b7fa20ba570e1fcde438f4f7dd312"]
